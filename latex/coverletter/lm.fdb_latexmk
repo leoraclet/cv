@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1753086779.21163 "/home/leonne/Documents/code/cv/lm/lm.tex" "lm.pdf" "lm" 1753086779.34927 2
+  "/home/leonne/Documents/code/cv/lm/lm.tex" 1753051208.7187 5322 6380e2741bcd0f7b88d7f3ac580e0341 ""
+  "/nix/store/hdh93wqmlmwfpb9h32gqxk21zx1svn6m-texlive-2025-env/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3600357 9c35e08ba161a1c1bebe0bfb51c1f8f6 ""
+  "/nix/store/hdh93wqmlmwfpb9h32gqxk21zx1svn6m-texlive-2025-env/share/texmf-var/web2c/texmf.cnf" 1 43847 920ba47d39545bd62474691f05ee71a6 ""
+  "awesome-cv.cls" 0 -1 0 ""
+  "lm.aux" 1753086771.20974 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "lm.tex" 1753051208.7187 5322 6380e2741bcd0f7b88d7f3ac580e0341 ""
+  (generated)
+  "lm.aux"
+  "lm.log"
+  "lm.pdf"
+  (rewritten before read)
