@@ -11,13 +11,24 @@
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
+- [❤️ Thanks](#️-thanks)
+- [📖 About](#-about)
 - [🌟 Showcase](#-showcase)
   - [LaTeX](#latex)
   - [Typst](#typst)
-- [❤️ Thanks](#️-thanks)
-- [📖 About](#-about)
+- [🚀 Usage](#-usage)
 - [📜 License](#-license)
 
+## ❤️ Thanks
+
+Made possible by those beautiful templates :
+
+- [**Awesome-CV**](https://github.com/posquit0/Awesome-CV) - LaTeX template
+- [**Brilliant-CV**](https://github.com/yunanwg/brilliant-CV) - Typst template (himself inspired from **Awesome-CV**)
+
+## 📖 About
+
+This repository houses templates for my **CV** and **Cover Letters**. There are two versions, one with [LaTeX](https://www.latex-project.org/) and the other with [Typst](https://typst.app/).
 
 ## 🌟 Showcase
 
@@ -33,16 +44,33 @@
 | :------------------------: | :------------------------: |
 | ![](./assets/cv-typst.png) | ![](./assets/cl-typst.png) |
 
-## ❤️ Thanks
 
-Made possible by those beautiful templates :
+## 🚀 Usage
 
-- [**Awesome-CV**](https://github.com/posquit0/Awesome-CV) - LaTeX template
-- [**Brilliant-CV**](https://github.com/yunanwg/brilliant-CV) - Typst template (himself inspired from **Awesome-CV**)
 
-## 📖 About
+> [!NOTE]
+>
+> You can read the simple [Makefile](./Makefile) for all the targets
 
-This repository houses templates for my **CV** and **Cover Letters**. There are two versions, one with [LaTeX](https://www.latex-project.org/) and the other with [Typst](https://typst.app/).
+Make sure you have **LaTeX** or **Typst** installed depending on which one you want to build (better is both).
+
+Then, run
+
+```bash
+make [TARGET]
+```
+
+or just
+
+```bash
+make
+```
+
+to build everything into the [**pdfs**](./pdfs/) directory
+
+> [!IMPORTANT]
+>
+> Ensure you have both installed for this one
 
 ## 📜 License
 

@@ -1,5 +1,0 @@
-PWD /home/leonne/Documents/code/cv/lm
-INPUT /nix/store/hdh93wqmlmwfpb9h32gqxk21zx1svn6m-texlive-2025-env/share/texmf-var/web2c/texmf.cnf
-INPUT /nix/store/hdh93wqmlmwfpb9h32gqxk21zx1svn6m-texlive-2025-env/share/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/leonne/Documents/code/cv/lm/lm.tex
-OUTPUT lm.log

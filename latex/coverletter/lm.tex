@@ -9,20 +9,16 @@
 %
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------------------------------------
 % CONFIGURATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
-\usepackage[french]{babel}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.3cm, footskip=.1cm}
-
-% Specify the location of the included fonts
-\fontdir[fonts/]
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
@@ -33,10 +29,11 @@
 
 % Colors for text
 % Uncomment if you would like to specify your own color
-\definecolor{darktext}{HTML}{000000}
-\definecolor{text}{HTML}{000000}
-\definecolor{graytext}{HTML}{000000}
-\definecolor{lighttext}{HTML}{000000}
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
@@ -44,22 +41,41 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% PERSONAL INFORMATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------------------------------------
+%  PERSONAL INFORMATION
+%  Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\name{Léo}{Raclet}
+\position{Site Reliability Engineer{\enskip\cdotp\enskip}Software Architect}
+\address{Quelque part en France}
 
-\name{Léo}{RACLET}
-\position{Etudiant en école d'ingénieur{\enskip\cdotp\enskip}électronique et télécommunications}
+\email{leo.raclet@gmail.com}
+%\dateofbirth{January 1st, 1970}
+\homepage{leoraclet.github.io}
+\github{leoraclet}
+\linkedin{leoraclet}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \x{x-id}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \hackerrank{hackerrank-id}
+% \telegram{telegram-username}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
 
-\email{ leo.raclet@gmail.com}
-\github{leoraclet}{ Github}
-\linkedin{LeoRaclet}{ LinkedIn}
-\homepage{leoraclet.github.io}{ Portfolio}
+\quote{``Be the change that you want to see in the world."}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% LETTER INFORMATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%-------------------------------------------------------------------------------
+%  LETTER INFORMATION
+%  All of the below lines must be filled out
+%-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
 {Equipe du bureau d'étude}
@@ -72,20 +88,17 @@
 \letteropening{Madame, Monsieur, }
 % How the letter is closed
 \letterclosing{
-  Je vous remercie par avance pour l’attention que vous porterez à ma candidature et reste à votre disposition pour de plus amples renseignements. \\
+  Je vous remercie par avance pour l'attention que vous porterez à ma candidature et reste à votre disposition pour de plus amples renseignements. \\
   \\
   Veuillez agréer, Madame, Monsieur, mes salutations distinguées.
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% DOCUMENT
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%-------------------------------------------------------------------------------
 \begin{document}
 
-% Print the header with above personal informations
+% Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[C]
+\makecvheader[R]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
@@ -94,32 +107,34 @@
 {Léo Raclet ~~~·~~~ Lettre de motivation}
 {}
 
-% Print the title with above letter informations
+% Print the title with above letter information
 \makelettertitle
 
 %-------------------------------------------------------------------------------
 %  LETTER CONTENT
 %-------------------------------------------------------------------------------
-
 \begin{cvletter}
 
-  \lettersection{À~propos de moi}
-  Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+  \lettersection{About Me}
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
 
-  \lettersection{Pourquoi Alternatives Energies ?}
-  Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+  \lettersection{Why You?}
+  Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
 
-  \lettersection{Et~Nous ?}
-  Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+  \lettersection{Why Me?}
+  Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
 
 \end{cvletter}
 
 %-------------------------------------------------------------------------------
-% Print the signature and enclosures with above letter informations
+% Print the signature and enclosures with above letter information
+%-------------------------------------------------------------------------------
 \makeletterclosing
 % Signature
 \begin{tikzpicture}%
-  \node[circle, draw=none, inner sep=1.2cm, fill zoom image=signature] () {};
+  \node[circle, draw=none, inner sep=1.2cm, fill zoom image=latex/coverletter/signature.png] () {};
 \end{tikzpicture}
+
+\end{document}
 
 \end{document}
