@@ -1,0 +1,133 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 0.3in
+    bottom_margin: 0.3in
+    left_margin: 0.6in
+    right_margin: 0.6in
+    show_footer: false
+    show_top_note: false
+  links:
+    underline: false
+    show_external_link_icon: true
+
+  header:
+    alignment: center
+    photo_width: 3.5cm
+    photo_position: left
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.6cm
+    space_below_headline: 0.4cm
+    space_below_connections: 0.4cm
+    connections:
+      phone_number_format: national
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ""
+      space_between_connections: 0.5cm
+
+locale:
+  language: french
+
+settings:
+  render_command:
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+
+cv:
+  name: Léo Raclet
+  headline: Étudiant en ingénierie électronique et cybersécurité
+  location: Canada, France
+  email: leo.raclet@gmail.com
+  photo:
+  phone:
+  website: https://neutronys.com/
+  social_networks:
+    - network: LinkedIn
+      username: leoraclet
+    - network: GitHub
+      username: leoraclet
+
+  sections:
+    education:
+      - institution: "Télécom Saint-Etienne"
+        area: "Électronique et télécommunications"
+        degree: "Diplôme d'ingénieur (en cours)"
+        start_date: 2023-09
+        end_date:
+        location: "Saint-Etienne, France"
+        summary: "Double diplôme en Cybersécurité à l'UQAC (Canada)"
+        highlights:
+          - Circuits logiques programmables
+          - Systèmes embarqués
+          - Télécommunications
+
+      - institution: Télécom Saint-Etienne
+        area: "Génie Électrique et Informatique Industrielle (GEII)"
+        degree: "DUT GEII et Licence L2 d'ingénieur (Prépa intégrée)"
+        start_date: 2021-09
+        end_date: 2023-07
+        location: Saint-Etienne, France
+
+    experience:
+      - company: Projet&Tech (Association de robotique)
+        position: Président
+        start_date: 2024-09
+        end_date: 2025-09
+        location: France
+        summary: Organisation et gestion d'une association étudiante dédiée à la robotique
+        highlights:
+          - Organisation des tâches et gestion des équipes
+          - Conception et création de robots avec les membres
+          - Formation des premières années à la robotique et aux outils associés
+          - Gestion administrative et recherche de partenariats
+
+      - company: Alternatives Energies
+        position: Stagiaire
+        start_date: 2024-05-27
+        end_date: 2024-08-02
+        location: La Rochelle, France
+        summary: Développement d'un système automatisé de récupération et d'analyse de données
+        highlights:
+          - Réalisation d'un système automatisé avec Python
+          - Création d'une interface web avec Django et PostgreSQL
+          - Configuration de tableaux de bord sur Grafana
+          - Déploiement en production avec Debian et Docker
+
+      - company: Laboratoire Hubert Curien
+        position: Stagiaire en recherche
+        start_date: 2023-04-17
+        end_date: 2023-07-21
+        location: Saint-Etienne, France
+        summary: Implémentation matérielle de fonctions cryptographiques post-quantiques
+        highlights:
+          - Implémentation en VHDL sur FPGA
+          - Interaction avec FPGA via Python et ChipWhisperer
+          - Comparaison de stratégies d'implémentation
+          - Réalisation d'attaques par canaux auxiliaires
+
+    projects:
+      - name: Générateur de fractales
+        start_date: 2023-01
+        end_date:
+        location:
+        summary: Programme en C++ pour générer et explorer des fractales stylisées
+        highlights:
+
+    skills:
+      - label: Technologies
+        details: Python, C/C++, SQL, VHDL, HTML, CSS, JS, Bash
+      - label: Outils
+        details: Grafana, Quartus, Altium, GitHub, Git, Docker, Django, PostgreSQL
+      - label: Systèmes
+        details: STM32, Arduino, Linux, Windows, Raspberry Pi, NixOS
+      - label: Langues
+        details: "Français, Anglais (TOEIC: 925)"

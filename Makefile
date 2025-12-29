@@ -2,6 +2,7 @@
 	clean
 	examples
 	clean
+	cp python/rendercv_output
 
 CC_LATEX_1 = latexmk
 CC_LATEX_2 = xelatex
@@ -26,7 +27,21 @@ cl_latex.pdf: $(LATEX_DIR)/coverletter/lm.tex
 	echo "latex/coverletter/awesome-cv.cls" | $(CC_LATEX_2) -output-directory=$(OUTPUT_DIR) $(LATEX_DIR)/coverletter/lm.tex
 
 clean:
-# To clena up LaTeX generated files
+# To clean up LaTeX generated files
+	rm -Rf **/*.synctex.gz
+	rm -Rf **/*.aux
+	rm -Rf **/*.log
+	rm -Rf **/*.toc
+	rm -Rf **/*.out
+	rm -Rf **/*.fdb_latexmk
+	rm -Rf **/*.fls
+	rm -Rf **/*.nav
+	rm -Rf **/*.snm
+	rm -Rf **/*.vrb
+	rm -Rf **/*.xdv
+	rm -Rf **/*.bbl
+	rm -Rf **/*.blg
+	rm -Rf **/*.dvi
 	rm -Rf pdfs/*.synctex.gz
 	rm -Rf pdfs/*.aux
 	rm -Rf pdfs/*.log

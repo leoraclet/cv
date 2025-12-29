@@ -10,16 +10,17 @@
 </div>
 
 ## Table of Contents
+
 - [Table of Contents](#table-of-contents)
-- [❤️ Thanks](#️-thanks)
+- [🙏 Acknowledgements](#-acknowledgements)
 - [📖 About](#-about)
 - [🌟 Showcase](#-showcase)
-  - [LaTeX](#latex)
-  - [Typst](#typst)
+    - [LaTeX](#latex)
+    - [Typst](#typst)
 - [🚀 Usage](#-usage)
 - [📜 License](#-license)
 
-## ❤️ Thanks
+## 🙏 Acknowledgements
 
 Made possible by those beautiful templates :
 
@@ -44,9 +45,7 @@ This repository houses templates for my **CV** and **Cover Letters**. There are 
 | :------------------------: | :------------------------: |
 | ![](./assets/cv-typst.png) | ![](./assets/cl-typst.png) |
 
-
 ## 🚀 Usage
-
 
 > [!NOTE]
 >
