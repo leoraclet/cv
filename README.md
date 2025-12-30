@@ -1,5 +1,5 @@
 <div align="center"><img style="width: 300px" src="./assets/cv-logo.png"></div>
-<h1 align="center">CV & Cover Letter</h1>
+<h1 align="center">CV Templates</h1>
 
 <div align="center">
 
@@ -9,9 +9,8 @@
 
 </div>
 
-## Table of Contents
+## Table of contents
 
-- [Table of Contents](#table-of-contents)
 - [🙏 Acknowledgements](#-acknowledgements)
 - [📖 About](#-about)
 - [🌟 Showcase](#-showcase)
@@ -22,26 +21,33 @@
 
 ## 🙏 Acknowledgements
 
-Made possible by those beautiful templates :
+> [!NOTE]
+> While I have tested these projects and drawn inspiration from them, I personally use my own template, which is located at [`latex/cv/cv.tex`](./latex/cv/cv.tex).
+>
+> You can see the output presented as the first image in the [Showcase](#-showcase) section.
+
+Sources of inspirations and tests :
 
 - [**Awesome-CV**](https://github.com/posquit0/Awesome-CV) - LaTeX template
 - [**Brilliant-CV**](https://github.com/yunanwg/brilliant-CV) - Typst template (himself inspired from **Awesome-CV**)
 
+And more recently the [**RenderCV**](https://github.com/rendercv/rendercv) python project.
+
 ## 📖 About
 
-This repository houses templates for my **CV** and **Cover Letters**. There are two versions, one with [LaTeX](https://www.latex-project.org/) and the other with [Typst](https://typst.app/).
+This repository houses templates for my **Resume** and **Cover letters**. There are two versions, one with [LaTeX](https://www.latex-project.org/) and the other with [Typst](https://typst.app/).
 
 ## 🌟 Showcase
 
 ### LaTeX
 
-|             CV             |        Cover Letter        |
+|      Resume (my own)       |        Cover Letter        |
 | :------------------------: | :------------------------: |
 | ![](./assets/cv-latex.png) | ![](./assets/cl-latex.png) |
 
 ### Typst
 
-|             CV             |        Cover Letter        |
+|           Resume           |        Cover Letter        |
 | :------------------------: | :------------------------: |
 | ![](./assets/cv-typst.png) | ![](./assets/cl-typst.png) |
 
@@ -49,7 +55,7 @@ This repository houses templates for my **CV** and **Cover Letters**. There are 
 
 > [!NOTE]
 >
-> You can read the simple [Makefile](./Makefile) for all the targets
+> You can read this simple [Makefile](./Makefile) for all the targets
 
 Make sure you have **LaTeX** or **Typst** installed depending on which one you want to build (better is both).
 

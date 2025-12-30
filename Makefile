@@ -1,8 +1,8 @@
-.PHONY:
-	clean
-	examples
-	clean
-	cp python/rendercv_output
+.PHONY: all
+all: clean examples
+	echo ">>> Completed ..."
+	$(MAKE) clean
+	echo ">>> Cleaned ..."
 
 CC_LATEX_1 = latexmk
 CC_LATEX_2 = xelatex
@@ -25,6 +25,12 @@ cv_latex.pdf: $(LATEX_DIR)/cv/cv.tex $(LATEX_DIR)/cv/cv_en.tex
 
 cl_latex.pdf: $(LATEX_DIR)/coverletter/lm.tex
 	echo "latex/coverletter/awesome-cv.cls" | $(CC_LATEX_2) -output-directory=$(OUTPUT_DIR) $(LATEX_DIR)/coverletter/lm.tex
+
+watch:
+    uv tool run rendercv render --watch python/Léo_Raclet_CV.yaml
+
+render:
+    uv tool run rendercv render python/Léo_Raclet_CV.yaml
 
 clean:
 # To clean up LaTeX generated files
