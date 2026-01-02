@@ -17,6 +17,7 @@
     - [LaTeX](#latex)
     - [Typst](#typst)
 - [🧪 Setup Environment](#-setup-environment)
+    - [Recommended Extensions](#recommended-extensions)
 - [🚀 Usage](#-usage)
 - [📦 Structure](#-structure)
 - [📜 License](#-license)
@@ -68,8 +69,8 @@ Then, configure it to enable [Flakes](https://nixos.wiki/wiki/flakes) according 
 Once you're ready, you can start by cloning this repo
 
 ```bash
-git clone https://github.com/leoraclet/fractals-generator
-cd fractals
+git clone https://github.com/leoraclet/cv
+cd cv
 ```
 
 > [!TIP]
@@ -79,6 +80,16 @@ cd fractals
 > ```bash
 > direnv allow
 > ```
+
+### Recommended Extensions
+
+The project is pre-configured with the following VSCode extensions to ensure seamless dependency management and environment setup:
+
+- [Nix Environment Selector](https://github.com/arrterian/nix-env-selector) - Allows switch environment for VSCode using Nix Package Manager
+- [Python Envy](https://github.com/teticio/python-envy) - Automatically activate Python virtual environments as you navigate the source code
+
+> [!NOTE]
+> You can find the recommended extensions and pre-configured settings under `.vscode/`.
 
 ## 🚀 Usage
 
