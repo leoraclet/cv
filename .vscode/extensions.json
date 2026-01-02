@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "james-yu.latex-workshop",
+        "tecosaur.latex-utilities",
+        "torn4dom4n.latex-support",
+        "valentjn.vscode-ltex",
+        "jeffersonqin.latex-snippets-jeff",
+        "arrterian.nix-env-selector",
+        "teticio.python-envy"
+    ]
+}

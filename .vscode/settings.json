@@ -1,0 +1,20 @@
+{
+    // LaTeX
+    "latex-workshop.formatting.latex": "tex-fmt",
+    "latex-workshop.bibtex-format.sort.enabled": true,
+    "latex-workshop.latex.autoClean.run": "onSucceeded",
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+    "latex-workshop.latex.outDir": "%DIR%/out_dir",
+    "latex-workshop.latex.clean.subfolder.enabled": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "latex-workshop.intellisense.update.aggressive.enabled": true,
+    "[latex]": {
+        "editor.formatOnPaste": false,
+        "editor.suggestSelection": "recentlyUsedByPrefix",
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    // Nix
+    "nixEnvSelector.useFlakes": true,
+    "nixEnvSelector.suggestion": false,
+}

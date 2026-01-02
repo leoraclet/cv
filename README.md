@@ -16,7 +16,9 @@
 - [🌟 Showcase](#-showcase)
     - [LaTeX](#latex)
     - [Typst](#typst)
+- [🧪 Setup Environment](#-setup-environment)
 - [🚀 Usage](#-usage)
+- [📦 Structure](#-structure)
 - [📜 License](#-license)
 
 ## 🙏 Acknowledgements
@@ -51,6 +53,33 @@ This repository houses templates for my **Resume** and **Cover letters**. There 
 | :------------------------: | :------------------------: |
 | ![](./assets/cv-typst.png) | ![](./assets/cl-typst.png) |
 
+## 🧪 Setup Environment
+
+> [!NOTE]
+>
+> I'm using NixOS as my day-to-day OS, and I have found that **Nix** with **Flakes** was the
+> simplest and fastest way for me to setup C/C++ project with external libraries.
+
+To build this project, first make sure you have [Nix](https://nixos.org/download/) installed as a
+package manager and [direnv](https://direnv.net/) as a shell extension.
+
+Then, configure it to enable [Flakes](https://nixos.wiki/wiki/flakes) according to your setup.
+
+Once you're ready, you can start by cloning this repo
+
+```bash
+git clone https://github.com/leoraclet/fractals-generator
+cd fractals
+```
+
+> [!TIP]
+>
+> Now, **direnv** should load the environment when inside the project directory, if not, try
+>
+> ```bash
+> direnv allow
+> ```
+
 ## 🚀 Usage
 
 > [!NOTE]
@@ -76,6 +105,25 @@ to build everything into the [**pdfs**](./pdfs/) directory
 > [!IMPORTANT]
 >
 > Ensure you have both installed for this one
+
+## 📦 Structure
+
+- **Directories**
+
+    - [**`.vscode`**](./.vscode/) - Project specific VSCode settings (LaTeX formatting and recommended extensions)
+    - [**`assets`**](./assets/) - Illustration images
+    - [**`pdfs`**](./pdfs/) - Final PDFs as result of the render process
+    - [**`latex`**](./latex/) - LaTeX source files
+    - [**`typst`**](./typst/) - Typst source files
+    - [**`python`**](./latex/) - YAML source files to be used by RenderCV
+
+- **Files**
+
+    - `flake.nix` - Environment configuration (based on
+    [**dev-templates**](https://github.com/the-nix-way/dev-templates))
+    - `.envrc` - Used by **direnv** to load **Flakes**
+    - `flake.lock` - Used by **Flakes** to version packages
+    - `Makefile` - Used to automate checks and analyses
 
 ## 📜 License
 
